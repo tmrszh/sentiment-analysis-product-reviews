@@ -1,6 +1,6 @@
-# 🎯 Sentiment Analysis of Product Reviews
+# Sentiment Analysis of Product Reviews
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -9,7 +9,7 @@ Binary sentiment classification (Positive / Negative) on real-world product, mov
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **UCI Sentiment Labelled Sentences** — short, hand-labelled review sentences pulled from three different sources:
 
@@ -26,7 +26,7 @@ https://archive.ics.uci.edu/static/public/331/sentiment+labelled+sentences.zip
 
 ---
 
-## 🧠 Models
+## Models
 
 | Model | Notes |
 |---|---|
@@ -38,7 +38,7 @@ Text is vectorized with **TF-IDF** (unigrams + bigrams) rather than raw counts, 
 
 ---
 
-## 🔬 What's inside the notebook
+## What's inside the notebook
 
 1. **Install & imports** — auto-downloads the dataset
 2. **Exploratory Data Analysis**
@@ -57,12 +57,11 @@ Text is vectorized with **TF-IDF** (unigrams + bigrams) rather than raw counts, 
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 git clone https://github.com/<your-username>/sentiment-analysis-product-reviews.git
 cd sentiment-analysis-product-reviews
-pip install -r requirements.txt  # or run the install cell in the notebook
 jupyter notebook "sentiment_analysis code.ipynb"
 ```
 
@@ -70,13 +69,13 @@ Run all cells top to bottom — the dataset downloads automatically and every se
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 `numpy` · `pandas` · `matplotlib` · `seaborn` · `scikit-learn` · `nltk` · `wordcloud`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
